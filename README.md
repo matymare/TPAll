@@ -23,8 +23,6 @@
 <div align="center">
 <h2>Additional information:</h2>
 </div>
-- After sending the order, you will be sent a message:
-![Picture](https://i.ibb.co/wR5Zmbz/tpall-2.png)
 - The plugin icon is created via www.flaticon.com
 
 ##  Permissions:  
