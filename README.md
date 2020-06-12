@@ -1,0 +1,2 @@
+# TPAll
+Teleport all players!
