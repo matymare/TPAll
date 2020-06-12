@@ -1,0 +1,13 @@
+name: TPAll
+main: matymare\TeleportAll
+version: 1.0
+api: 3.0.0
+author: matymare
+description: /tpall command!
+website: https://github.com/matymare/TPAll/
+
+commands:
+  tpall:
+    description: Teleport all players to you!
+    usage: "/tpall"
+    permission: tpall.command
