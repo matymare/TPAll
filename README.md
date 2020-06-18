@@ -18,7 +18,7 @@
 
 | Command: | Description: |
 | --- | --- |
-| **tpall** | **Teleport all players!**<br><br>![] |
+| **tpall** | **Teleport all players!**<br><br> |
 
 <div align="center">
 <h2>Additional information:</h2>
