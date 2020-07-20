@@ -3,7 +3,7 @@ main: matymare\tpall\Main
 version: 1.2
 api: 3.0.0
 author: matymare
-description: /tpall command!
+description: Teleport all player to you!
 
 commands:
   tpall:
