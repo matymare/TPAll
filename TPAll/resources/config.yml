@@ -1,0 +1,14 @@
+#   _____                _      _   _ 
+#  |_   _|  _ __        / \    | | | |
+#    | |   | '_ \      / _ \   | | | |
+#    | |   | |_) |    / ___ \  | | | |
+#    |_|   | .__/    /_/   \_\ |_| |_|
+#          |_|                      
+#    by matymare and fernanACM
+
+#  Plugin created by matymare
+#   TPAll - It is a PocketMine-MP plugin by which you can port all players to one place
+#   The plugin must not be modified without asking the plugin owner
+#   You can write to me on Discord: Roospy#1666
+
+message-tpall: "§l§8[§eTPAll§8] §r§8> §aTeleporting...\n"
