@@ -10,6 +10,9 @@
 namespace matymare\tpall;
 
 use pocketmine\plugin\PluginBase;
+use pocketmien\Server;
+use pocketmine\player\Player;
+use pocketmine\math\Vector3;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\world\Position;
@@ -21,12 +24,12 @@ class Main extends PluginBase{
 		switch($command->getName()){
 			case "tpall":
 				foreach ($this->getServer()->getOnlinePlayers() as $echo) {
-						$echo->teleport($sender);
+						$echo->teleport($sender->getPosition());
 						$echo->sendMessage("§l§8[§eTPAll§8] §r§8> §aTeleporting...\n");
 				}
 				return true;
-			break:
+			break;
 				return false;
 		} 
 	}
-}	
+}
