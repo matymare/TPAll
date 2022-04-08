@@ -12,7 +12,7 @@ namespace matymare\tpall;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
-use pocketmine\level\Position;
+use pocketmine\world\Position;
 
 
 class Main extends PluginBase{
@@ -25,8 +25,8 @@ class Main extends PluginBase{
 						$echo->sendMessage("§l§8[§eTPAll§8] §r§8> §aTeleporting...\n");
 				}
 				return true;
-			default:
+			break:
 				return false;
 		} 
-		}
+	}
 }	
