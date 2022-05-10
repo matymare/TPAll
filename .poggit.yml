@@ -5,7 +5,7 @@ branches:
 projects:
   TPAll:
     path: TPAll/
-    icon: TPAll/icon-tpall.png
+    icon: TPAll/TPAll/icon-tpall.png
     lint:
       phpstan: false
 ...
