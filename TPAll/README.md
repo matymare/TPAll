@@ -1,36 +1,52 @@
-## How to install:
-
-1. Download the plugin TPAll!
-2. Put it on the server in the folder `plugins`
-3. Restart the server!
-
-
-<br>
-
-## How to use plugin:
-
-1. Enter the chat `/tpall`
-2. And now everyone has teleported to you!
-
-
-<br>
-
-## Credits:
-
-The plugin icon is created via www.flaticon.com
-
-<br>
-
-
-## Description:
+# TPALL
 
 The TPAll plugin is for teleporting
 all players on the server to you! You can use the plugin completely at events, survival events and everything else. I will be happy if you write something in the comments that will help me for the better plugin. Thank you for your support and listen!
 
-<br>
+<a href="https://discord.gg/YyE9XFckqb"><img src="https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
-## Video tutorial:
+### ✔ Implementations
+* Sounds.
+* Message customization.
+* Command [/tpall]
 
-Link:   https://www.youtube.com/watch?v=pHzIqvYeONg
+### 💾 Config
+```yaml
+   #   _____                 _      _   _ 
+   #  |_   _|  _ __        / \    | | | |
+   #    | |   | '_ \     / _ \   | | | |
+   #   | |   | |_) |   / ___ \  | | | |
+   #  |_|   | .__/   /_/   \_\ |_| |_|
+   #       |_|                      
+   #    by matymare and fernanACM
+ 
+   # Plugin created by matymare, Updated by fernanACM
+   # TPAll - It is a PocketMine-MP plugin by which you can port all players to one place
+   # The plugin must not be modified without asking the plugin owner
+   # You can write to me on Discord: Roospy#1666
 
-<br>
+   # Configure the text and sound of the plugin, through the 'config.yml'. Minecraft sounds page:
+   # https://www.digminecraft.com/lists/sound_list_pe.php
+
+   # ======(SETTINGS)======
+   Settings:
+     # Prefix for Tpall message
+     Prefix: "§l§f[§eTPAll§f]§8»§r "
+     # Tpal's message
+     Message-tpall: "§aTeleporting...\n"
+     # Use "true" or "false" to enable/disable sound when using Tpall
+     Tpall-no-sound: true
+     # Type of sound when using Tpall
+     Tpall-sound: "portal.portal"
+   ```
+
+### 💬 Commands
+/tpall - Teleport all players to you!
+
+### 🚫 Permissions
+
+- Executing the command: ```tpall.command```
+
+## 🔔 Credits:
+
+The plugin icon is created via [flaticon](www.flaticon.com)
