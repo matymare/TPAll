@@ -1,5 +1,6 @@
 # TPALL
 
+
 The TPAll plugin is for teleporting
 all players on the server to you! You can use the plugin completely at events, survival events and everything else. I will be happy if you write something in the comments that will help me for the better plugin. Thank you for your support and listen!
 
@@ -12,12 +13,12 @@ all players on the server to you! You can use the plugin completely at events, s
 
 ### 💾 Config
 ```yaml
-   #   _____                 _      _   _ 
-   #  |_   _|  _ __        / \    | | | |
+   #   _____               _      _   _ 
+   #  |_   _|  _ __       / \    | | | |
    #    | |   | '_ \     / _ \   | | | |
-   #   | |   | |_) |   / ___ \  | | | |
-   #  |_|   | .__/   /_/   \_\ |_| |_|
-   #       |_|                      
+   #    | |   | |_) |   / ___ \  | | | |
+   #    |_|   | .__/   /_/   \_\ |_| |_|
+   #          |_|                      
    #    by matymare and fernanACM
  
    # Plugin created by matymare, Updated by fernanACM
