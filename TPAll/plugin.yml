@@ -1,6 +1,6 @@
 name: TPAll
 main: matymare\tpall\Main
-version: 1.2
+version: 1.3
 api: 4.0.0
 authors: [fernanACM, matymare]
 description: Teleport all player to you!
