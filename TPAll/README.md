@@ -1,4 +1,7 @@
 # TPALL
+[![](https://poggit.pmmp.io/shield.state/TPALL-PM4)](https://poggit.pmmp.io/p/TPALL-PM4)
+
+[![](https://poggit.pmmp.io/shield.api/TPALL-PM4)](https://poggit.pmmp.io/p/TPALL-PM4)
 
 ![icon-tpall](https://user-images.githubusercontent.com/83558341/167649960-389dd644-3e52-4aa0-9de2-093313640694.png)
 
