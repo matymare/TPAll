@@ -1,8 +1,8 @@
 name: TPAll
 main: matymare\tpall\Main
-version: 1.2
-api: 3.0.0
-author: matymare
+version: 1.3
+api: 4.0.0
+authors: [fernanACM, matymare]
 description: Teleport all player to you!
 
 commands:
@@ -10,3 +10,7 @@ commands:
     description: Teleport all players to you!
     usage: "/tpall"
     permission: tpall.command
+    
+permissions:
+  tpall.command:
+    default: op

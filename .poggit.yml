@@ -1,8 +1,10 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/matymare/TPAll
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/fernanACM/TPAll
 build-by-default: true
 branches:
-- master
+- PM4
 projects:
   TPAll:
     path: TPAll/
+    lint:
+      phpstan: false
 ...

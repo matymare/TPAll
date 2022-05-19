@@ -9,24 +9,44 @@
 
 namespace matymare\tpall;
 
+use pocketmien\Server;
+use pocketmine\player\Player;
+
 use pocketmine\plugin\PluginBase;
+
+use pocketmine\world\Position;
+use pocketmine\utils\Config;
+
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
-use pocketmine\level\Position;
-
+# Credits - fernanACM
+use matymare\tpall\utils\PluginUtils;
 
 class Main extends PluginBase{
+    
+    public Config $config;
+    
+    public function onEnable(): void{
+        $this->saveDefaultConfig();
+        $this->saveResource("config.yml");
+	$this->config = new Config($this->getDataFolder() . "config.yml");
+    }
 
-	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
-		switch($command->getName()){
-			case "tpall":
-				foreach ($this->getServer()->getOnlinePlayers() as $echo) {
-						$echo->teleport($sender);
-						$echo->sendMessage("§l§8[§eTPAll§8] §r§8> §aTeleporting...\n");
-				}
-				return true;
-			default:
-				return false;
-		} 
-		}
-}	
+    public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
+	    switch($command->getName()){
+	        case "tpall":
+                    if($sender instanceof Player){    
+                        foreach ($this->getServer()->getOnlinePlayers() as $echo) {
+			    $echo->teleport($sender->getPosition());
+		            $echo->sendMessage($this->config->get("Settings")["Prefix"] . $this->config->get("Settings")["Message-tpall"]);
+                            if($this->config->get("Settings")["Tpall-no-sound"]){
+                               PluginUtils::PlaySound($sender, $this->config->get("Settings")["Tpall-sound"], 1, 1);
+                            }
+		        }
+                    }else{
+                       $sender->sendMessage("Use this command in-game");   
+                }
+            }
+        return true;
+    }
+}
