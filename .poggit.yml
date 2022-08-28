@@ -4,7 +4,5 @@ branches:
 - PM4
 projects:
   TPAll:
-    path: TPAll/
-    lint:
-      phpstan: false
+    path: ""
 ...
